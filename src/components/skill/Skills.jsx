@@ -7,7 +7,6 @@ const Skills = () => {
       name: "HTML",
       icon: (
         <svg
-          data-aos="fade-up"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
           className="w-12 h-12 fill-blue-400 cursor-pointer"
@@ -20,7 +19,6 @@ const Skills = () => {
       name: "CSS",
       icon: (
         <svg
-          data-aos="fade-up"
           data-aos-delay="200"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
@@ -34,7 +32,6 @@ const Skills = () => {
       name: "JavaScript",
       icon: (
         <svg
-          data-aos="fade-up"
           data-aos-delay="300"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
@@ -48,7 +45,6 @@ const Skills = () => {
       name: "Bootstrap",
       icon: (
         <svg
-          data-aos="fade-up"
           data-aos-delay="400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 576 512"
@@ -62,7 +58,6 @@ const Skills = () => {
       name: "Figma",
       icon: (
         <svg
-          data-aos="fade-up"
           data-aos-delay="500"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
@@ -76,13 +71,17 @@ const Skills = () => {
 
   return (
     <div id="skills" className="w-full bg-gray-900 py-16 px-4 pt-[8em]">
-      <h2 className="text-4xl font-bold text-white text-center mb-16">
+      <h2
+        data-aos="fade-down"
+        className="text-4xl font-bold text-white text-center mb-16"
+      >
         My Skills
       </h2>
 
       <div className="flex justify-center flex-wrap max-w-4xl mx-auto gap-8">
         {skills.map((skill, index) => (
           <div
+            data-aos="zoom-in-up"
             key={index}
             className="flex flex-col items-center transform transition-all duration-300 hover:scale-110"
           >

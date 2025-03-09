@@ -85,7 +85,7 @@ const Footer = () => {
         <nav>
           <ul className="flex justify-center gap-6 list-none">
             <li>
-              <a href="#home" className="text-white hover:text-blue-500">
+              <a href="#hero" className="text-white hover:text-blue-500">
                 Home
               </a>
             </li>
@@ -97,6 +97,16 @@ const Footer = () => {
             <li>
               <a href="#skills" className="text-white hover:text-blue-500">
                 Skills
+              </a>
+            </li>
+            <li>
+              <a href="#skills" className="text-white hover:text-blue-500">
+                Education
+              </a>
+            </li>
+            <li>
+              <a href="#skills" className="text-white hover:text-blue-500">
+                Experience
               </a>
             </li>
             <li>
@@ -120,8 +130,9 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="border-t border-[rgba(255,255,255,0.1)] pt-8">
-        <h3 className="text-white text-2xl mb-2">Sal Monineath</h3>
-        <p className="text-gray-400 text-sm">All Rights Reserved.</p>
+        <p className="text-gray-400 text-sm">
+          All Rights Reserved. | Created by Sal Monineath
+        </p>
       </div>
     </footer>
   );

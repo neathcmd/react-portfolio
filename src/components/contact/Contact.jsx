@@ -8,16 +8,22 @@ const Contact = () => {
       className="w-full h-screen flex flex-col items-center justify-center pt-20 py-16 bg-[#0f172a] text-white"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+        <h2
+          data-aos="fade-down"
+          className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+        >
           Get in Touch
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {/* Contact Details (Left Column) */}
           <div className="flex flex-col">
-            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-6">
+            <h3
+              data-aos="fade-right"
+              className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-6"
+            >
               Contact me
             </h3>
-            <div className="flex items-center mb-4">
+            <div data-aos="fade-right" className="flex items-center mb-4">
               <svg
                 className="w-6 h-6 text-blue-400 mr-3"
                 fill="none"
@@ -34,7 +40,11 @@ const Contact = () => {
               </svg>
               <p className="text-white">monineath@gmail.com</p>
             </div>
-            <div className="flex items-center mb-4">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="200"
+              className="flex items-center mb-4"
+            >
               <svg
                 className="w-6 h-6 text-blue-400 mr-3"
                 fill="none"
@@ -51,7 +61,11 @@ const Contact = () => {
               </svg>
               <p className="text-white">+855 882 906 535</p>
             </div>
-            <div className="flex items-center mb-4">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              className="flex items-center mb-4"
+            >
               <svg
                 className="w-6 h-6 text-blue-400 mr-3"
                 fill="none"
@@ -79,13 +93,23 @@ const Contact = () => {
           </div>
 
           {/* Contact Form (Right Column) */}
-          <div className="p-6 rounded-lg bg-gray-800 shadow-lg">
+          <div
+            data-aos="fade-left"
+            className="p-6 rounded-lg bg-gray-800 shadow-lg"
+          >
             <form>
               <div className="mb-4">
-                <label htmlFor="name" className="block text-gray-400 mb-2">
+                <label
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                  htmlFor="name"
+                  className="block text-gray-400 mb-2"
+                >
                   Name
                 </label>
                 <input
+                  data-aos="fade-left"
+                  data-aos-delay="300"
                   type="text"
                   id="name"
                   placeholder="Your name"
@@ -93,10 +117,17 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label htmlFor="email" className="block text-gray-400 mb-2">
+                <label
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                  htmlFor="email"
+                  className="block text-gray-400 mb-2"
+                >
                   Email
                 </label>
                 <input
+                  data-aos="fade-left"
+                  data-aos-delay="500"
                   type="email"
                   id="email"
                   placeholder="Your email"
@@ -104,10 +135,17 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label htmlFor="message" className="block text-gray-400 mb-2">
+                <label
+                  data-aos="fade-left"
+                  data-aos-delay="600"
+                  htmlFor="message"
+                  className="block text-gray-400 mb-2"
+                >
                   Message
                 </label>
                 <textarea
+                  data-aos="fade-left"
+                  data-aos-delay="700"
                   id="message"
                   placeholder="Your message"
                   rows="5"
@@ -115,6 +153,8 @@ const Contact = () => {
                 ></textarea>
               </div>
               <button
+                data-aos="fade-up"
+                data-aos-delay="800"
                 type="submit"
                 className="w-full py-3 px-6 bg-blue-500 text-white rounded-md hover:bg-blue-400 transition-colors duration-200"
               >

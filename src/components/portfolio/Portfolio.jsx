@@ -45,6 +45,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {portfolioData.map((project, index) => (
             <div
+              data-aos="zoom-in-up"
               key={index}
               className="p-6 rounded-lg bg-gray-800 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
             >

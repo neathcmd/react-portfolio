@@ -94,9 +94,9 @@ const Navbar = () => {
         {[
           { name: "Home", link: "#hero", id: "home" },
           { name: "About", link: "#about", id: "about" },
-          { name: "Skills", link: "#skills", id: "skills" },
           { name: "Education", link: "#education", id: "education" },
           { name: "Experience", link: "#experience", id: "Experience" },
+          { name: "Skills", link: "#skills", id: "skills" },
           { name: "Portfolio", link: "#portfolio", id: "portfolio" },
           { name: "Blogs", link: "#blogs", id: "blogs" },
           { name: "Contact", link: "#contact", id: "contact" },

@@ -9,18 +9,26 @@ const About = () => {
       <div className="container max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
           {/* Left: Text Content */}
-          <div
-            data-aos="fade-right"
-            className="md:w-1/2 text-start md:text-left"
-          >
-            <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
-            <p className="text-lg text-gray-400 leading-relaxed mb-6">
+          <div className="md:w-1/2 text-start md:text-left">
+            <h2
+              data-aos="fade-right"
+              className="text-4xl font-bold text-white mb-6"
+            >
+              About Me
+            </h2>
+            <p
+              data-aos="fade-right"
+              data-aos-delay="200"
+              className="text-lg text-gray-400 leading-relaxed mb-6"
+            >
               I'm <span className="text-blue-400">Sal Monineath</span>, a web
               developer and graphic designer passionate about creating stunning
               digital experiences. I specialize in front-end development, UI/UX
               design, and branding.
             </p>
             <a
+              data-aos="fade-right"
+              data-aos-delay="300"
               href="#more-about"
               className="inline-block px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white text-base font-semibold rounded-lg transition duration-300"
             >

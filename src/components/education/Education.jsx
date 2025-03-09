@@ -31,7 +31,10 @@ const Education = () => {
       className="pt-[8em] py-16 bg-gradient-to-b from-gray-900 to-gray-800 text-white"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+        <h2
+          data-aos="fade-down"
+          className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+        >
           Education
         </h2>
         <div className="relative max-w-3xl mx-auto">
