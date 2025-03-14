@@ -62,7 +62,7 @@ const Hero = () => {
           </a>
           <a
             data-aos="fade-left"
-            href="/path-to-your-cv.pdf"
+            href="/"
             download
             className="px-7 py-2.5 bg-gray-700 hover:bg-gray-800 text-white font-semibold rounded-lg transition duration-300 shadow-lg hover:shadow-gray-700/20 border border-gray-600"
           >

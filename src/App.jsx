@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div
-      className="w-full"
+      className="w-full overflow-x-hidden"
       style={{ backgroundColor: darkMode ? "#1e293b" : "#f9fafb" }}
     >
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />

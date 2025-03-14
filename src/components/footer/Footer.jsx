@@ -13,6 +13,11 @@ const Footer = () => {
   return (
     <footer className="bg-[#0f1621] py-12 px-8 text-center shadow-[0_-4px_6px_rgba(0,0,0,0.1)]">
       {/* Social Links */}
+      <div>
+        <h1 className="text-2xl font-bold my-4 text-blue-400 tracking-tight">
+          Sal Monineath
+        </h1>
+      </div>
       <div className="flex justify-center gap-6 mb-8">
         <a
           href="https://www.facebook.com/profile.php?id=100076469475604&mibextid=JRoKGi"
